@@ -16,6 +16,6 @@ int main() {
     }
     Sgra+=G1+G2;
     cout<<"Grados: "<<Sgra<<"\nMinutos: "<<Smin<<"\nSegundos: "<<Sseg<<endl;
-
+    cout<<"Hola a todos""
     return 0;
 }
