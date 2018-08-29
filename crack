@@ -1,0 +1,21 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int G1,M1,S1,G2,M2,S2,Sgra,Smin,Sseg;
+    cin>>G1>>M1>>S1>>G2>>M2>>S2;
+    Sseg=S1+S2;
+    if (Sseg>=60){
+        Smin=1;
+        Sseg-=60;
+    }
+    Smin+=M1+M2;
+    if (Smin>=60) {
+        Sgra = 1;
+        Smin -= 60;
+    }
+    Sgra+=G1+G2;
+    cout<<"Grados: "<<Sgra<<"\nMinutos: "<<Smin<<"\nSegundos: "<<Sseg<<endl;
+
+    return 0;
+}
